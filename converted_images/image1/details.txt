@@ -7,7 +7,8 @@ Colors used (RGB):
  - 207, 194, 163
  - 166, 118, 60
 
-Colors used (Hex): - #0c3d01
+Colors used (Hex):
+ - #0c3d01
  - #3d2e01
  - #000000
  - #cfc2a3

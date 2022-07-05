@@ -109,9 +109,9 @@ def convert_to_rgbs(hexs):
 
     return rgbs
 
-if __name__ == "__main__":
+def main():
     img_name = input("Enter image name: ")
-    colors = input("Enter hex colors separated by comma: ").replace(" ", "").split(",")
+    colors = input("Enter hex colors separated by commas: ").replace(" ", "").split(",")
 
     colors_rgb = convert_to_rgbs(colors)
 
@@ -136,9 +136,12 @@ if __name__ == "__main__":
 
     text = f"Name: {img_name}\n\n"
     text += f"Colors used (RGB):\n{text_colors_rgb}\n"
-    text += f"Colors used (Hex):{text_colors_hex}\n"
+    text += f"Colors used (Hex):\n{text_colors_hex}\n"
     text += f"Euclidean:\n - number of iterations: {euc_det['iter_cnt']}\n - time elapsed: {euc_det['time_elapsed']} seconds\n\n"
     text += f"Taxicab:\n - number of iterations: {tax_det['iter_cnt']}\n - time elapsed: {tax_det['time_elapsed']} seconds"
 
     with open(f"converted_images/{name}/details.txt", "w+") as f:
         f.write(text)
+
+if __name__ == "__main__":
+    main()

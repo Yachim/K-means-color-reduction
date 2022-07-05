@@ -1,0 +1,25 @@
+Name: image3.jpg
+
+Colors used (RGB):
+ - 153, 224, 242
+ - 109, 175, 191
+ - 18, 135, 163
+ - 202, 216, 219
+ - 242, 244, 245
+ - 156, 160, 161
+
+Colors used (Hex):
+ - #99e0f2
+ - #6dafbf
+ - #1287a3
+ - #cad8db
+ - #f2f4f5
+ - #9ca0a1
+
+Euclidean:
+ - number of iterations: 53
+ - time elapsed: 42 seconds
+
+Taxicab:
+ - number of iterations: 69
+ - time elapsed: 70 seconds
