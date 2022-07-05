@@ -117,5 +117,3 @@ Taxicab: 70 seconds
 
 ## Conclusion
 While working on this project I learned about the k-means algorithm. I observed the differences the metric selection made and the time it took to complete. 
-
-In the future I'm planning on making a web application to which a user can submit image and select colors with color picker, view his images and share them.
