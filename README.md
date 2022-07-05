@@ -2,7 +2,7 @@
 Python project using the [k-means algorithm](https://en.wikipedia.org/wiki/K-means_clustering) to reduce colors in an image. The user inputs the image name located in the `source_images` folder and colors. The program then reduces the colors to the colors selected by the user.
 
 ## Algorithm
-### Input Cata
+### Input Data
 The initial values for centroids are the colors inputted by the user. The points are set of colors gathered from the image.
 
 ### The Conversion Process
@@ -23,7 +23,8 @@ The file `details.txt` contains information about the conversion - the name of t
 
 ## Results
 All images are from Unsplash and have a high resolution.
-### First image
+
+### First Image
 Colors used:
 
 - 12, 61, 1 ![#0c3d01](https://via.placeholder.com/15/0c3d01/0c3d01.png) 
@@ -43,15 +44,17 @@ Colors used:
 
 There can be seen some very small differences between conversion.
 
-#### Number of iterations
+#### Number of Iterations
 Euclidean: 33
+
 Taxicab: 35
 
-#### Time elapsed
+#### Time Elapsed
 Euclidean: 30 seconds
+
 Taxicab: 42 seconds
 
-### Second image
+### Second Image
 Colors used:
 
 - 105, 85, 60 ![#69553c](https://via.placeholder.com/15/69553c/69553c.png) 
@@ -69,17 +72,19 @@ Colors used:
 </p>
 <p align="center">Euclidean (left) and Taxicab (right) metric</p>
 
-There are visible differences between metrics.
+There are visible differences between the metrics.
 
-#### Number of iterations
+#### Number of Iiterations
 Euclidean: 20
+
 Taxicab: 23
 
-#### Time elapsed
+#### Time Elapsed
 Euclidean: 22 seconds
+
 Taxicab: 32 seconds
 
-### Third image
+### Third Image
 Colors used:
 
 - 153, 224, 242 ![#99e0f2](https://via.placeholder.com/15/99e0f2/99e0f2.png) 
@@ -98,14 +103,16 @@ Colors used:
 </p>
 <p align="center">Euclidean (left) and Taxicab (right) metric</p>
 
-There are also visible differences between metrics.
+There are also visible differences between the metrics.
 
-#### Number of iterations
+#### Number of Iterations
 Euclidean: 53
+
 Taxicab: 69
 
-#### Time elapsed
+#### Time Elapsed
 Euclidean: 42 seconds
+
 Taxicab: 70 seconds
 
 ## Conclusion
