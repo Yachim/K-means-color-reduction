@@ -1,0 +1,22 @@
+Name: image1.jpg
+
+Colors used (RGB):
+ - 12, 61, 1
+ - 61, 46, 1
+ - 0, 0, 0
+ - 207, 194, 163
+ - 166, 118, 60
+
+Colors used (Hex): - #0c3d01
+ - #3d2e01
+ - #000000
+ - #cfc2a3
+ - #a6763c
+
+Euclidean:
+ - number of iterations: 33
+ - time elapsed: 30 seconds
+
+Taxicab:
+ - number of iterations: 35
+ - time elapsed: 42 seconds
